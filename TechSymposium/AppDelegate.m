@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "SpeakerViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,28 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    UIWindow* window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window = window;
+    SpeakerViewController *speakerVC = [[SpeakerViewController alloc] init];
+   UINavigationController *nav  = [[UINavigationController alloc] initWithRootViewController:speakerVC];
+    [self.window setRootViewController:nav];
+   // [nav pushViewController:speakerVC animated:YES];
+    [self.window makeKeyAndVisible];
+   // UIColor *customColor = [[UIColor alloc]initWithRed:102 green:102 blue:102 alpha:1];
+    UIColor *grey = [self colorWithHexString:@"#666666"];
+    
+    [[UINavigationBar appearance] setTitleTextAttributes:
+     [NSDictionary dictionaryWithObjectsAndKeys:
+      [UIFont fontWithName:@"Lato-Regular" size:21],
+      NSFontAttributeName,grey,NSForegroundColorAttributeName, nil]];
+   
+    [[UINavigationBar appearance] setBackgroundImage:[UIImage imageNamed:@"menu-background.png"] forBarMetrics:UIBarMetricsDefault];
+    
+    [[UINavigationBar appearance] setBackIndicatorImage:[UIImage imageNamed:@"back-50x50.png"]];
+    [[UINavigationBar appearance] setBackIndicatorTransitionMaskImage:[UIImage imageNamed:@"back-50x50.png"]];
+    
+    [[UIBarButtonItem appearance] setBackButtonTitlePositionAdjustment:UIOffsetMake(0, -60)
+                                                         forBarMetrics:UIBarMetricsDefault];
     return YES;
 }
 
@@ -122,6 +145,41 @@
             abort();
         }
     }
+}
+-(UIColor*)colorWithHexString:(NSString*)hex
+{
+    NSString *cString = [[hex stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]] uppercaseString];
+    
+    // String should be 6 or 8 characters
+    if ([cString length] < 6) return [UIColor grayColor];
+    
+    // strip 0X if it appears
+    if ([cString hasPrefix:@"0X"]) cString = [cString substringFromIndex:2];
+    
+    if ([cString length] != 6) return  [UIColor grayColor];
+    
+    // Separate into r, g, b substrings
+    NSRange range;
+    range.location = 0;
+    range.length = 2;
+    NSString *rString = [cString substringWithRange:range];
+    
+    range.location = 2;
+    NSString *gString = [cString substringWithRange:range];
+    
+    range.location = 4;
+    NSString *bString = [cString substringWithRange:range];
+    
+    // Scan values
+    unsigned int r, g, b;
+    [[NSScanner scannerWithString:rString] scanHexInt:&r];
+    [[NSScanner scannerWithString:gString] scanHexInt:&g];
+    [[NSScanner scannerWithString:bString] scanHexInt:&b];
+    
+    return [UIColor colorWithRed:((float) r / 255.0f)
+                           green:((float) g / 255.0f)
+                            blue:((float) b / 255.0f)
+                           alpha:1.0f];
 }
 
 @end

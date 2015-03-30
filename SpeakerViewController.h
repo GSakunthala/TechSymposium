@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  SpeakerViewController.h
 //  TechSymposium
 //
 //  Created by Kiran Bandla on 3/24/15.
@@ -8,8 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface SpeakerViewController : UITableViewController
+@property(weak,nonatomic) IBOutlet UITableView *speakerTable;
 
 @end
-

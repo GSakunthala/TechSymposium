@@ -10,11 +10,25 @@
 		B06497E31AC15D4100945B45 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B06497E21AC15D4100945B45 /* main.m */; };
 		B06497E61AC15D4100945B45 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B06497E51AC15D4100945B45 /* AppDelegate.m */; };
 		B06497E91AC15D4100945B45 /* TechSymposium.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B06497E71AC15D4100945B45 /* TechSymposium.xcdatamodeld */; };
-		B06497EC1AC15D4100945B45 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B06497EB1AC15D4100945B45 /* ViewController.m */; };
-		B06497EF1AC15D4100945B45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B06497ED1AC15D4100945B45 /* Main.storyboard */; };
 		B06497F11AC15D4100945B45 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B06497F01AC15D4100945B45 /* Images.xcassets */; };
 		B06497F41AC15D4100945B45 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B06497F21AC15D4100945B45 /* LaunchScreen.xib */; };
 		B06498001AC15D4100945B45 /* TechSymposiumTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B06497FF1AC15D4100945B45 /* TechSymposiumTests.m */; };
+		B06498101AC1787F00945B45 /* SpeakerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B064980E1AC1787F00945B45 /* SpeakerViewController.m */; };
+		B06498111AC1787F00945B45 /* SpeakerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B064980F1AC1787F00945B45 /* SpeakerViewController.xib */; };
+		B06498181AC17DBA00945B45 /* Speaker_created.json in Resources */ = {isa = PBXBuildFile; fileRef = B06498171AC17DBA00945B45 /* Speaker_created.json */; };
+		B06498211AC273EE00945B45 /* SpeakerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B064981F1AC273EE00945B45 /* SpeakerTableViewCell.m */; };
+		B06498221AC273EE00945B45 /* SpeakerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B06498201AC273EE00945B45 /* SpeakerTableViewCell.xib */; };
+		B06498261AC2B14F00945B45 /* SpeakerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B06498251AC2B14F00945B45 /* SpeakerModel.m */; };
+		B064982B1AC5276D00945B45 /* SpeakerDAO.m in Sources */ = {isa = PBXBuildFile; fileRef = B064982A1AC5276D00945B45 /* SpeakerDAO.m */; };
+		B064982F1AC5477F00945B45 /* Speaker.json in Resources */ = {isa = PBXBuildFile; fileRef = B064982E1AC5477F00945B45 /* Speaker.json */; };
+		B06498331AC5486300945B45 /* SpeakerDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B06498311AC5486300945B45 /* SpeakerDetailsViewController.m */; };
+		B06498341AC5486300945B45 /* SpeakerDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B06498321AC5486300945B45 /* SpeakerDetailsViewController.xib */; };
+		B0A102051AC923BD00239D48 /* Lato-Regular.eot in Resources */ = {isa = PBXBuildFile; fileRef = B0A102011AC923BD00239D48 /* Lato-Regular.eot */; };
+		B0A102061AC923BD00239D48 /* Lato-Regular.svg in Resources */ = {isa = PBXBuildFile; fileRef = B0A102021AC923BD00239D48 /* Lato-Regular.svg */; };
+		B0A102071AC923BD00239D48 /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B0A102031AC923BD00239D48 /* Lato-Regular.ttf */; };
+		B0A102081AC923BD00239D48 /* Lato-Regular.woff in Resources */ = {isa = PBXBuildFile; fileRef = B0A102041AC923BD00239D48 /* Lato-Regular.woff */; };
+		B0A1020B1AC92B3800239D48 /* back-50x50.png in Resources */ = {isa = PBXBuildFile; fileRef = B0A1020A1AC92B3800239D48 /* back-50x50.png */; };
+		B0A1020D1AC94BCF00239D48 /* menu-background.png in Resources */ = {isa = PBXBuildFile; fileRef = B0A1020C1AC94BCF00239D48 /* menu-background.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,14 +48,32 @@
 		B06497E41AC15D4100945B45 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B06497E51AC15D4100945B45 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B06497E81AC15D4100945B45 /* TechSymposium.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TechSymposium.xcdatamodel; sourceTree = "<group>"; };
-		B06497EA1AC15D4100945B45 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B06497EB1AC15D4100945B45 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		B06497EE1AC15D4100945B45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B06497F01AC15D4100945B45 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B06497F31AC15D4100945B45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		B06497F91AC15D4100945B45 /* TechSymposiumTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TechSymposiumTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B06497FE1AC15D4100945B45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B06497FF1AC15D4100945B45 /* TechSymposiumTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TechSymposiumTests.m; sourceTree = "<group>"; };
+		B064980D1AC1787F00945B45 /* SpeakerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpeakerViewController.h; sourceTree = "<group>"; };
+		B064980E1AC1787F00945B45 /* SpeakerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpeakerViewController.m; sourceTree = "<group>"; };
+		B064980F1AC1787F00945B45 /* SpeakerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SpeakerViewController.xib; sourceTree = "<group>"; };
+		B06498171AC17DBA00945B45 /* Speaker_created.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Speaker_created.json; sourceTree = "<group>"; };
+		B064981E1AC273EE00945B45 /* SpeakerTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpeakerTableViewCell.h; sourceTree = "<group>"; };
+		B064981F1AC273EE00945B45 /* SpeakerTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpeakerTableViewCell.m; sourceTree = "<group>"; };
+		B06498201AC273EE00945B45 /* SpeakerTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SpeakerTableViewCell.xib; sourceTree = "<group>"; };
+		B06498241AC2B14F00945B45 /* SpeakerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpeakerModel.h; sourceTree = "<group>"; };
+		B06498251AC2B14F00945B45 /* SpeakerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpeakerModel.m; sourceTree = "<group>"; };
+		B06498291AC5276D00945B45 /* SpeakerDAO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpeakerDAO.h; sourceTree = "<group>"; };
+		B064982A1AC5276D00945B45 /* SpeakerDAO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpeakerDAO.m; sourceTree = "<group>"; };
+		B064982E1AC5477F00945B45 /* Speaker.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Speaker.json; sourceTree = "<group>"; };
+		B06498301AC5486300945B45 /* SpeakerDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpeakerDetailsViewController.h; sourceTree = "<group>"; };
+		B06498311AC5486300945B45 /* SpeakerDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpeakerDetailsViewController.m; sourceTree = "<group>"; };
+		B06498321AC5486300945B45 /* SpeakerDetailsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SpeakerDetailsViewController.xib; sourceTree = "<group>"; };
+		B0A102011AC923BD00239D48 /* Lato-Regular.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.eot"; sourceTree = "<group>"; };
+		B0A102021AC923BD00239D48 /* Lato-Regular.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Lato-Regular.svg"; sourceTree = "<group>"; };
+		B0A102031AC923BD00239D48 /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
+		B0A102041AC923BD00239D48 /* Lato-Regular.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.woff"; sourceTree = "<group>"; };
+		B0A1020A1AC92B3800239D48 /* back-50x50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back-50x50.png"; sourceTree = "<group>"; };
+		B0A1020C1AC94BCF00239D48 /* menu-background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-background.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +97,9 @@
 		B06497D41AC15D4100945B45 = {
 			isa = PBXGroup;
 			children = (
+				B0A102091AC923C400239D48 /* fonts */,
+				B06498A21AC8E87C00945B45 /* image */,
+				B06498271AC51C3A00945B45 /* view */,
 				B06497DF1AC15D4100945B45 /* TechSymposium */,
 				B06497FC1AC15D4100945B45 /* TechSymposiumTests */,
 				B06497DE1AC15D4100945B45 /* Products */,
@@ -85,9 +120,6 @@
 			children = (
 				B06497E41AC15D4100945B45 /* AppDelegate.h */,
 				B06497E51AC15D4100945B45 /* AppDelegate.m */,
-				B06497EA1AC15D4100945B45 /* ViewController.h */,
-				B06497EB1AC15D4100945B45 /* ViewController.m */,
-				B06497ED1AC15D4100945B45 /* Main.storyboard */,
 				B06497F01AC15D4100945B45 /* Images.xcassets */,
 				B06497F21AC15D4100945B45 /* LaunchScreen.xib */,
 				B06497E71AC15D4100945B45 /* TechSymposium.xcdatamodeld */,
@@ -120,6 +152,56 @@
 				B06497FE1AC15D4100945B45 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B06498151AC17A9800945B45 /* Speaker */ = {
+			isa = PBXGroup;
+			children = (
+				B064982E1AC5477F00945B45 /* Speaker.json */,
+				B06498171AC17DBA00945B45 /* Speaker_created.json */,
+				B064980D1AC1787F00945B45 /* SpeakerViewController.h */,
+				B064980E1AC1787F00945B45 /* SpeakerViewController.m */,
+				B064980F1AC1787F00945B45 /* SpeakerViewController.xib */,
+				B064981E1AC273EE00945B45 /* SpeakerTableViewCell.h */,
+				B064981F1AC273EE00945B45 /* SpeakerTableViewCell.m */,
+				B06498201AC273EE00945B45 /* SpeakerTableViewCell.xib */,
+				B06498241AC2B14F00945B45 /* SpeakerModel.h */,
+				B06498251AC2B14F00945B45 /* SpeakerModel.m */,
+				B06498291AC5276D00945B45 /* SpeakerDAO.h */,
+				B064982A1AC5276D00945B45 /* SpeakerDAO.m */,
+				B06498301AC5486300945B45 /* SpeakerDetailsViewController.h */,
+				B06498311AC5486300945B45 /* SpeakerDetailsViewController.m */,
+				B06498321AC5486300945B45 /* SpeakerDetailsViewController.xib */,
+			);
+			name = Speaker;
+			sourceTree = "<group>";
+		};
+		B06498271AC51C3A00945B45 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				B06498151AC17A9800945B45 /* Speaker */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		B06498A21AC8E87C00945B45 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				B0A1020C1AC94BCF00239D48 /* menu-background.png */,
+				B0A1020A1AC92B3800239D48 /* back-50x50.png */,
+			);
+			name = image;
+			sourceTree = "<group>";
+		};
+		B0A102091AC923C400239D48 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				B0A102011AC923BD00239D48 /* Lato-Regular.eot */,
+				B0A102021AC923BD00239D48 /* Lato-Regular.svg */,
+				B0A102031AC923BD00239D48 /* Lato-Regular.ttf */,
+				B0A102041AC923BD00239D48 /* Lato-Regular.woff */,
+			);
+			name = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,9 +284,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B06497EF1AC15D4100945B45 /* Main.storyboard in Resources */,
+				B0A102081AC923BD00239D48 /* Lato-Regular.woff in Resources */,
+				B06498111AC1787F00945B45 /* SpeakerViewController.xib in Resources */,
+				B06498221AC273EE00945B45 /* SpeakerTableViewCell.xib in Resources */,
+				B06498181AC17DBA00945B45 /* Speaker_created.json in Resources */,
+				B0A102051AC923BD00239D48 /* Lato-Regular.eot in Resources */,
+				B06498341AC5486300945B45 /* SpeakerDetailsViewController.xib in Resources */,
+				B064982F1AC5477F00945B45 /* Speaker.json in Resources */,
 				B06497F41AC15D4100945B45 /* LaunchScreen.xib in Resources */,
 				B06497F11AC15D4100945B45 /* Images.xcassets in Resources */,
+				B0A1020B1AC92B3800239D48 /* back-50x50.png in Resources */,
+				B0A1020D1AC94BCF00239D48 /* menu-background.png in Resources */,
+				B0A102061AC923BD00239D48 /* Lato-Regular.svg in Resources */,
+				B0A102071AC923BD00239D48 /* Lato-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,9 +314,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B06498211AC273EE00945B45 /* SpeakerTableViewCell.m in Sources */,
+				B06498331AC5486300945B45 /* SpeakerDetailsViewController.m in Sources */,
+				B064982B1AC5276D00945B45 /* SpeakerDAO.m in Sources */,
 				B06497E91AC15D4100945B45 /* TechSymposium.xcdatamodeld in Sources */,
+				B06498101AC1787F00945B45 /* SpeakerViewController.m in Sources */,
 				B06497E61AC15D4100945B45 /* AppDelegate.m in Sources */,
-				B06497EC1AC15D4100945B45 /* ViewController.m in Sources */,
+				B06498261AC2B14F00945B45 /* SpeakerModel.m in Sources */,
 				B06497E31AC15D4100945B45 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -248,14 +344,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B06497ED1AC15D4100945B45 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B06497EE1AC15D4100945B45 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B06497F21AC15D4100945B45 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -348,6 +436,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TechSymposium/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -358,6 +447,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TechSymposium/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -416,6 +506,7 @@
 				B06498051AC15D4100945B45 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B06498061AC15D4100945B45 /* Build configuration list for PBXNativeTarget "TechSymposiumTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +515,7 @@
 				B06498081AC15D4100945B45 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
