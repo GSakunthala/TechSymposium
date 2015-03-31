@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B0031C5A1ACA6B4D008C1056 /* AttendeesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0031C581ACA6B4D008C1056 /* AttendeesViewController.m */; };
+		B0031C5B1ACA6B4D008C1056 /* AttendeesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0031C591ACA6B4D008C1056 /* AttendeesViewController.xib */; };
+		B0031C5D1ACA7869008C1056 /* Attendee.json in Resources */ = {isa = PBXBuildFile; fileRef = B0031C5C1ACA7869008C1056 /* Attendee.json */; };
+		B0031C601ACA7A0F008C1056 /* AttendeeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B0031C5F1ACA7A0F008C1056 /* AttendeeModel.m */; };
+		B0031C631ACA9101008C1056 /* AttendeeDAO.m in Sources */ = {isa = PBXBuildFile; fileRef = B0031C621ACA9101008C1056 /* AttendeeDAO.m */; };
+		B0031C671ACA96AF008C1056 /* AttendeeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B0031C651ACA96AF008C1056 /* AttendeeTableViewCell.m */; };
+		B0031C681ACA96AF008C1056 /* AttendeeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0031C661ACA96AF008C1056 /* AttendeeTableViewCell.xib */; };
+		B0031C6B1ACA98DB008C1056 /* mail.png in Resources */ = {isa = PBXBuildFile; fileRef = B0031C6A1ACA98DB008C1056 /* mail.png */; };
 		B06497E31AC15D4100945B45 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B06497E21AC15D4100945B45 /* main.m */; };
 		B06497E61AC15D4100945B45 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B06497E51AC15D4100945B45 /* AppDelegate.m */; };
 		B06497E91AC15D4100945B45 /* TechSymposium.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B06497E71AC15D4100945B45 /* TechSymposium.xcdatamodeld */; };
@@ -42,6 +50,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B0031C571ACA6B4D008C1056 /* AttendeesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AttendeesViewController.h; sourceTree = "<group>"; };
+		B0031C581ACA6B4D008C1056 /* AttendeesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AttendeesViewController.m; sourceTree = "<group>"; };
+		B0031C591ACA6B4D008C1056 /* AttendeesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AttendeesViewController.xib; sourceTree = "<group>"; };
+		B0031C5C1ACA7869008C1056 /* Attendee.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Attendee.json; sourceTree = "<group>"; };
+		B0031C5E1ACA7A0F008C1056 /* AttendeeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AttendeeModel.h; path = TechSymposium/AttendeeModel.h; sourceTree = "<group>"; };
+		B0031C5F1ACA7A0F008C1056 /* AttendeeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AttendeeModel.m; path = TechSymposium/AttendeeModel.m; sourceTree = "<group>"; };
+		B0031C611ACA9101008C1056 /* AttendeeDAO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AttendeeDAO.h; sourceTree = "<group>"; };
+		B0031C621ACA9101008C1056 /* AttendeeDAO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AttendeeDAO.m; sourceTree = "<group>"; };
+		B0031C641ACA96AF008C1056 /* AttendeeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AttendeeTableViewCell.h; sourceTree = "<group>"; };
+		B0031C651ACA96AF008C1056 /* AttendeeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AttendeeTableViewCell.m; sourceTree = "<group>"; };
+		B0031C661ACA96AF008C1056 /* AttendeeTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AttendeeTableViewCell.xib; sourceTree = "<group>"; };
+		B0031C6A1ACA98DB008C1056 /* mail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mail.png; sourceTree = "<group>"; };
 		B06497DD1AC15D4100945B45 /* TechSymposium.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TechSymposium.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B06497E11AC15D4100945B45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B06497E21AC15D4100945B45 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -94,6 +114,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B0031C561ACA6B23008C1056 /* Attendees */ = {
+			isa = PBXGroup;
+			children = (
+				B0031C571ACA6B4D008C1056 /* AttendeesViewController.h */,
+				B0031C581ACA6B4D008C1056 /* AttendeesViewController.m */,
+				B0031C591ACA6B4D008C1056 /* AttendeesViewController.xib */,
+				B0031C5C1ACA7869008C1056 /* Attendee.json */,
+				B0031C5E1ACA7A0F008C1056 /* AttendeeModel.h */,
+				B0031C5F1ACA7A0F008C1056 /* AttendeeModel.m */,
+				B0031C611ACA9101008C1056 /* AttendeeDAO.h */,
+				B0031C621ACA9101008C1056 /* AttendeeDAO.m */,
+				B0031C641ACA96AF008C1056 /* AttendeeTableViewCell.h */,
+				B0031C651ACA96AF008C1056 /* AttendeeTableViewCell.m */,
+				B0031C661ACA96AF008C1056 /* AttendeeTableViewCell.xib */,
+			);
+			name = Attendees;
+			sourceTree = "<group>";
+		};
+		B0031C6C1ACAB91A008C1056 /* Breakouts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Breakouts;
+			sourceTree = "<group>";
+		};
 		B06497D41AC15D4100945B45 = {
 			isa = PBXGroup;
 			children = (
@@ -179,6 +224,8 @@
 		B06498271AC51C3A00945B45 /* view */ = {
 			isa = PBXGroup;
 			children = (
+				B0031C6C1ACAB91A008C1056 /* Breakouts */,
+				B0031C561ACA6B23008C1056 /* Attendees */,
 				B06498151AC17A9800945B45 /* Speaker */,
 			);
 			name = view;
@@ -187,6 +234,7 @@
 		B06498A21AC8E87C00945B45 /* image */ = {
 			isa = PBXGroup;
 			children = (
+				B0031C6A1ACA98DB008C1056 /* mail.png */,
 				B0A1020C1AC94BCF00239D48 /* menu-background.png */,
 				B0A1020A1AC92B3800239D48 /* back-50x50.png */,
 			);
@@ -290,10 +338,14 @@
 				B06498181AC17DBA00945B45 /* Speaker_created.json in Resources */,
 				B0A102051AC923BD00239D48 /* Lato-Regular.eot in Resources */,
 				B06498341AC5486300945B45 /* SpeakerDetailsViewController.xib in Resources */,
+				B0031C6B1ACA98DB008C1056 /* mail.png in Resources */,
 				B064982F1AC5477F00945B45 /* Speaker.json in Resources */,
+				B0031C681ACA96AF008C1056 /* AttendeeTableViewCell.xib in Resources */,
 				B06497F41AC15D4100945B45 /* LaunchScreen.xib in Resources */,
+				B0031C5D1ACA7869008C1056 /* Attendee.json in Resources */,
 				B06497F11AC15D4100945B45 /* Images.xcassets in Resources */,
 				B0A1020B1AC92B3800239D48 /* back-50x50.png in Resources */,
+				B0031C5B1ACA6B4D008C1056 /* AttendeesViewController.xib in Resources */,
 				B0A1020D1AC94BCF00239D48 /* menu-background.png in Resources */,
 				B0A102061AC923BD00239D48 /* Lato-Regular.svg in Resources */,
 				B0A102071AC923BD00239D48 /* Lato-Regular.ttf in Resources */,
@@ -316,6 +368,10 @@
 			files = (
 				B06498211AC273EE00945B45 /* SpeakerTableViewCell.m in Sources */,
 				B06498331AC5486300945B45 /* SpeakerDetailsViewController.m in Sources */,
+				B0031C5A1ACA6B4D008C1056 /* AttendeesViewController.m in Sources */,
+				B0031C671ACA96AF008C1056 /* AttendeeTableViewCell.m in Sources */,
+				B0031C601ACA7A0F008C1056 /* AttendeeModel.m in Sources */,
+				B0031C631ACA9101008C1056 /* AttendeeDAO.m in Sources */,
 				B064982B1AC5276D00945B45 /* SpeakerDAO.m in Sources */,
 				B06497E91AC15D4100945B45 /* TechSymposium.xcdatamodeld in Sources */,
 				B06498101AC1787F00945B45 /* SpeakerViewController.m in Sources */,

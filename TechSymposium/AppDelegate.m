@@ -8,7 +8,7 @@
 
 #import "AppDelegate.h"
 #import "SpeakerViewController.h"
-
+#import "AttendeesViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -20,26 +20,13 @@
     // Override point for customization after application launch.
     UIWindow* window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.window = window;
-    SpeakerViewController *speakerVC = [[SpeakerViewController alloc] init];
-   UINavigationController *nav  = [[UINavigationController alloc] initWithRootViewController:speakerVC];
+  //  SpeakerViewController *speakerVC = [[SpeakerViewController alloc] init];
+    AttendeesViewController *attendeesVC = [[AttendeesViewController alloc] init];
+   UINavigationController *nav  = [[UINavigationController alloc] initWithRootViewController:attendeesVC];
     [self.window setRootViewController:nav];
-   // [nav pushViewController:speakerVC animated:YES];
     [self.window makeKeyAndVisible];
-   // UIColor *customColor = [[UIColor alloc]initWithRed:102 green:102 blue:102 alpha:1];
-    UIColor *grey = [self colorWithHexString:@"#666666"];
-    
-    [[UINavigationBar appearance] setTitleTextAttributes:
-     [NSDictionary dictionaryWithObjectsAndKeys:
-      [UIFont fontWithName:@"Lato-Regular" size:21],
-      NSFontAttributeName,grey,NSForegroundColorAttributeName, nil]];
-   
-    [[UINavigationBar appearance] setBackgroundImage:[UIImage imageNamed:@"menu-background.png"] forBarMetrics:UIBarMetricsDefault];
-    
-    [[UINavigationBar appearance] setBackIndicatorImage:[UIImage imageNamed:@"back-50x50.png"]];
-    [[UINavigationBar appearance] setBackIndicatorTransitionMaskImage:[UIImage imageNamed:@"back-50x50.png"]];
-    
-    [[UIBarButtonItem appearance] setBackButtonTitlePositionAdjustment:UIOffsetMake(0, -60)
-                                                         forBarMetrics:UIBarMetricsDefault];
+    [self setCustomNavigationBar]; //method for customziing nav bar
+
     return YES;
 }
 
@@ -181,5 +168,20 @@
                             blue:((float) b / 255.0f)
                            alpha:1.0f];
 }
-
+-(void) setCustomNavigationBar
+{
+    UIColor *grey = [self colorWithHexString:@"#666666"];
+    [[UINavigationBar appearance] setTitleTextAttributes:
+     [NSDictionary dictionaryWithObjectsAndKeys:
+      [UIFont fontWithName:@"Lato-Regular" size:21],
+      NSFontAttributeName,grey,NSForegroundColorAttributeName, nil]];
+    
+    [[UINavigationBar appearance] setBackgroundImage:[UIImage imageNamed:@"menu-background.png"] forBarMetrics:UIBarMetricsDefault];
+    
+    [[UINavigationBar appearance] setBackIndicatorImage:[UIImage imageNamed:@"back-50x50.png"]];
+    [[UINavigationBar appearance] setBackIndicatorTransitionMaskImage:[UIImage imageNamed:@"back-50x50.png"]];
+    
+    [[UIBarButtonItem appearance] setBackButtonTitlePositionAdjustment:UIOffsetMake(0, -60)
+                                                         forBarMetrics:UIBarMetricsDefault];
+}
 @end
