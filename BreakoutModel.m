@@ -1,15 +1,13 @@
 //
-//  AttendeesViewController.h
+//  BreakoutModel.m
 //  TechSymposium
 //
 //  Created by Kiran Bandla on 3/31/15.
 //  Copyright (c) 2015 MCOE. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "BreakoutModel.h"
 
-@interface AttendeesViewController : UITableViewController
-{
-    
-}
+@implementation BreakoutModel
+
 @end

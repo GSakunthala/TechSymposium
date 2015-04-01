@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 #import "SpeakerViewController.h"
 #import "AttendeesViewController.h"
+#import "BreakoutsViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -21,7 +22,8 @@
     UIWindow* window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.window = window;
   //  SpeakerViewController *speakerVC = [[SpeakerViewController alloc] init];
-    AttendeesViewController *attendeesVC = [[AttendeesViewController alloc] init];
+   // AttendeesViewController *attendeesVC = [[AttendeesViewController alloc] init];
+    BreakoutsViewController *attendeesVC = [[BreakoutsViewController alloc] init];
    UINavigationController *nav  = [[UINavigationController alloc] initWithRootViewController:attendeesVC];
     [self.window setRootViewController:nav];
     [self.window makeKeyAndVisible];

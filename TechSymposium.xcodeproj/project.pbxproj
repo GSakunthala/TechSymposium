@@ -15,6 +15,17 @@
 		B0031C671ACA96AF008C1056 /* AttendeeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B0031C651ACA96AF008C1056 /* AttendeeTableViewCell.m */; };
 		B0031C681ACA96AF008C1056 /* AttendeeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0031C661ACA96AF008C1056 /* AttendeeTableViewCell.xib */; };
 		B0031C6B1ACA98DB008C1056 /* mail.png in Resources */ = {isa = PBXBuildFile; fileRef = B0031C6A1ACA98DB008C1056 /* mail.png */; };
+		B0031CDD1ACADB1B008C1056 /* BreakoutsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0031CDB1ACADB1B008C1056 /* BreakoutsViewController.m */; };
+		B0031CDE1ACADB1B008C1056 /* BreakoutsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0031CDC1ACADB1B008C1056 /* BreakoutsViewController.xib */; };
+		B0031CE01ACADCE3008C1056 /* Breakout.json in Resources */ = {isa = PBXBuildFile; fileRef = B0031CDF1ACADCE3008C1056 /* Breakout.json */; };
+		B0031CE41ACADD1F008C1056 /* BreakoutTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B0031CE21ACADD1F008C1056 /* BreakoutTableViewCell.m */; };
+		B0031CE51ACADD20008C1056 /* BreakoutTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0031CE31ACADD1F008C1056 /* BreakoutTableViewCell.xib */; };
+		B0031CE81ACAEA63008C1056 /* hexagon.png in Resources */ = {isa = PBXBuildFile; fileRef = B0031CE71ACAEA63008C1056 /* hexagon.png */; };
+		B0031CEB1ACAED94008C1056 /* BreakoutModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B0031CEA1ACAED94008C1056 /* BreakoutModel.m */; };
+		B0031CEE1ACAEDA0008C1056 /* BreakoutDAO.m in Sources */ = {isa = PBXBuildFile; fileRef = B0031CED1ACAEDA0008C1056 /* BreakoutDAO.m */; };
+		B0031CF21ACAFC1E008C1056 /* DateModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B0031CF11ACAFC1E008C1056 /* DateModel.m */; };
+		B0031CF71ACBB1D8008C1056 /* BreakoutDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0031CF51ACBB1D8008C1056 /* BreakoutDetailsViewController.m */; };
+		B0031CF81ACBB1D8008C1056 /* BreakoutDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0031CF61ACBB1D8008C1056 /* BreakoutDetailsViewController.xib */; };
 		B06497E31AC15D4100945B45 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B06497E21AC15D4100945B45 /* main.m */; };
 		B06497E61AC15D4100945B45 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B06497E51AC15D4100945B45 /* AppDelegate.m */; };
 		B06497E91AC15D4100945B45 /* TechSymposium.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B06497E71AC15D4100945B45 /* TechSymposium.xcdatamodeld */; };
@@ -62,6 +73,23 @@
 		B0031C651ACA96AF008C1056 /* AttendeeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AttendeeTableViewCell.m; sourceTree = "<group>"; };
 		B0031C661ACA96AF008C1056 /* AttendeeTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AttendeeTableViewCell.xib; sourceTree = "<group>"; };
 		B0031C6A1ACA98DB008C1056 /* mail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mail.png; sourceTree = "<group>"; };
+		B0031CDA1ACADB1B008C1056 /* BreakoutsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BreakoutsViewController.h; sourceTree = "<group>"; };
+		B0031CDB1ACADB1B008C1056 /* BreakoutsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BreakoutsViewController.m; sourceTree = "<group>"; };
+		B0031CDC1ACADB1B008C1056 /* BreakoutsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BreakoutsViewController.xib; sourceTree = "<group>"; };
+		B0031CDF1ACADCE3008C1056 /* Breakout.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Breakout.json; sourceTree = "<group>"; };
+		B0031CE11ACADD1F008C1056 /* BreakoutTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BreakoutTableViewCell.h; sourceTree = "<group>"; };
+		B0031CE21ACADD1F008C1056 /* BreakoutTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BreakoutTableViewCell.m; sourceTree = "<group>"; };
+		B0031CE31ACADD1F008C1056 /* BreakoutTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BreakoutTableViewCell.xib; sourceTree = "<group>"; };
+		B0031CE71ACAEA63008C1056 /* hexagon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hexagon.png; sourceTree = "<group>"; };
+		B0031CE91ACAED94008C1056 /* BreakoutModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BreakoutModel.h; sourceTree = "<group>"; };
+		B0031CEA1ACAED94008C1056 /* BreakoutModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BreakoutModel.m; sourceTree = "<group>"; };
+		B0031CEC1ACAEDA0008C1056 /* BreakoutDAO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BreakoutDAO.h; sourceTree = "<group>"; };
+		B0031CED1ACAEDA0008C1056 /* BreakoutDAO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BreakoutDAO.m; sourceTree = "<group>"; };
+		B0031CF01ACAFC1D008C1056 /* DateModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateModel.h; sourceTree = "<group>"; };
+		B0031CF11ACAFC1E008C1056 /* DateModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateModel.m; sourceTree = "<group>"; };
+		B0031CF41ACBB1D8008C1056 /* BreakoutDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BreakoutDetailsViewController.h; sourceTree = "<group>"; };
+		B0031CF51ACBB1D8008C1056 /* BreakoutDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BreakoutDetailsViewController.m; sourceTree = "<group>"; };
+		B0031CF61ACBB1D8008C1056 /* BreakoutDetailsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BreakoutDetailsViewController.xib; sourceTree = "<group>"; };
 		B06497DD1AC15D4100945B45 /* TechSymposium.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TechSymposium.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B06497E11AC15D4100945B45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B06497E21AC15D4100945B45 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -135,8 +163,31 @@
 		B0031C6C1ACAB91A008C1056 /* Breakouts */ = {
 			isa = PBXGroup;
 			children = (
+				B0031CDA1ACADB1B008C1056 /* BreakoutsViewController.h */,
+				B0031CDB1ACADB1B008C1056 /* BreakoutsViewController.m */,
+				B0031CDC1ACADB1B008C1056 /* BreakoutsViewController.xib */,
+				B0031CDF1ACADCE3008C1056 /* Breakout.json */,
+				B0031CE11ACADD1F008C1056 /* BreakoutTableViewCell.h */,
+				B0031CE21ACADD1F008C1056 /* BreakoutTableViewCell.m */,
+				B0031CE31ACADD1F008C1056 /* BreakoutTableViewCell.xib */,
+				B0031CE91ACAED94008C1056 /* BreakoutModel.h */,
+				B0031CEA1ACAED94008C1056 /* BreakoutModel.m */,
+				B0031CEC1ACAEDA0008C1056 /* BreakoutDAO.h */,
+				B0031CED1ACAEDA0008C1056 /* BreakoutDAO.m */,
+				B0031CF41ACBB1D8008C1056 /* BreakoutDetailsViewController.h */,
+				B0031CF51ACBB1D8008C1056 /* BreakoutDetailsViewController.m */,
+				B0031CF61ACBB1D8008C1056 /* BreakoutDetailsViewController.xib */,
 			);
 			name = Breakouts;
+			sourceTree = "<group>";
+		};
+		B0031CEF1ACAFC07008C1056 /* utility */ = {
+			isa = PBXGroup;
+			children = (
+				B0031CF01ACAFC1D008C1056 /* DateModel.h */,
+				B0031CF11ACAFC1E008C1056 /* DateModel.m */,
+			);
+			name = utility;
 			sourceTree = "<group>";
 		};
 		B06497D41AC15D4100945B45 = {
@@ -224,6 +275,7 @@
 		B06498271AC51C3A00945B45 /* view */ = {
 			isa = PBXGroup;
 			children = (
+				B0031CEF1ACAFC07008C1056 /* utility */,
 				B0031C6C1ACAB91A008C1056 /* Breakouts */,
 				B0031C561ACA6B23008C1056 /* Attendees */,
 				B06498151AC17A9800945B45 /* Speaker */,
@@ -234,6 +286,7 @@
 		B06498A21AC8E87C00945B45 /* image */ = {
 			isa = PBXGroup;
 			children = (
+				B0031CE71ACAEA63008C1056 /* hexagon.png */,
 				B0031C6A1ACA98DB008C1056 /* mail.png */,
 				B0A1020C1AC94BCF00239D48 /* menu-background.png */,
 				B0A1020A1AC92B3800239D48 /* back-50x50.png */,
@@ -338,17 +391,22 @@
 				B06498181AC17DBA00945B45 /* Speaker_created.json in Resources */,
 				B0A102051AC923BD00239D48 /* Lato-Regular.eot in Resources */,
 				B06498341AC5486300945B45 /* SpeakerDetailsViewController.xib in Resources */,
+				B0031CE51ACADD20008C1056 /* BreakoutTableViewCell.xib in Resources */,
 				B0031C6B1ACA98DB008C1056 /* mail.png in Resources */,
+				B0031CF81ACBB1D8008C1056 /* BreakoutDetailsViewController.xib in Resources */,
 				B064982F1AC5477F00945B45 /* Speaker.json in Resources */,
 				B0031C681ACA96AF008C1056 /* AttendeeTableViewCell.xib in Resources */,
 				B06497F41AC15D4100945B45 /* LaunchScreen.xib in Resources */,
 				B0031C5D1ACA7869008C1056 /* Attendee.json in Resources */,
+				B0031CDE1ACADB1B008C1056 /* BreakoutsViewController.xib in Resources */,
 				B06497F11AC15D4100945B45 /* Images.xcassets in Resources */,
 				B0A1020B1AC92B3800239D48 /* back-50x50.png in Resources */,
+				B0031CE81ACAEA63008C1056 /* hexagon.png in Resources */,
 				B0031C5B1ACA6B4D008C1056 /* AttendeesViewController.xib in Resources */,
 				B0A1020D1AC94BCF00239D48 /* menu-background.png in Resources */,
 				B0A102061AC923BD00239D48 /* Lato-Regular.svg in Resources */,
 				B0A102071AC923BD00239D48 /* Lato-Regular.ttf in Resources */,
+				B0031CE01ACADCE3008C1056 /* Breakout.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,15 +425,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				B06498211AC273EE00945B45 /* SpeakerTableViewCell.m in Sources */,
+				B0031CF21ACAFC1E008C1056 /* DateModel.m in Sources */,
 				B06498331AC5486300945B45 /* SpeakerDetailsViewController.m in Sources */,
 				B0031C5A1ACA6B4D008C1056 /* AttendeesViewController.m in Sources */,
+				B0031CDD1ACADB1B008C1056 /* BreakoutsViewController.m in Sources */,
 				B0031C671ACA96AF008C1056 /* AttendeeTableViewCell.m in Sources */,
 				B0031C601ACA7A0F008C1056 /* AttendeeModel.m in Sources */,
 				B0031C631ACA9101008C1056 /* AttendeeDAO.m in Sources */,
 				B064982B1AC5276D00945B45 /* SpeakerDAO.m in Sources */,
+				B0031CE41ACADD1F008C1056 /* BreakoutTableViewCell.m in Sources */,
+				B0031CEE1ACAEDA0008C1056 /* BreakoutDAO.m in Sources */,
 				B06497E91AC15D4100945B45 /* TechSymposium.xcdatamodeld in Sources */,
+				B0031CF71ACBB1D8008C1056 /* BreakoutDetailsViewController.m in Sources */,
 				B06498101AC1787F00945B45 /* SpeakerViewController.m in Sources */,
 				B06497E61AC15D4100945B45 /* AppDelegate.m in Sources */,
+				B0031CEB1ACAED94008C1056 /* BreakoutModel.m in Sources */,
 				B06498261AC2B14F00945B45 /* SpeakerModel.m in Sources */,
 				B06497E31AC15D4100945B45 /* main.m in Sources */,
 			);
