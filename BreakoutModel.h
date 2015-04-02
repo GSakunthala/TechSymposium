@@ -20,6 +20,8 @@
 @property(nonatomic,strong) NSMutableArray *participants;
 @property(nonatomic,strong) NSMutableArray *sessionDates;
 
+@property(nonatomic,strong) NSString *sessionDetails;
+
 @property(nonatomic,assign) BOOL *isOngoing;
 
 

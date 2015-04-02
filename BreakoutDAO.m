@@ -22,6 +22,8 @@
     {
         BreakoutModel *breakout = [[BreakoutModel alloc] init];
         breakout.chairNames = [[NSMutableArray alloc] init];
+        breakout.sessionDates = [[NSMutableArray alloc] init];
+
         NSMutableArray *sessionStatus =[[NSMutableArray alloc] init];
         breakout.isOngoing = false;
 
@@ -37,15 +39,17 @@
         {
             DateModel *dateModel = [[DateModel alloc] init];
             dateModel.ds= [[dates objectAtIndex:ch] objectForKey:@"ds"];
+            dateModel.time= [[dates objectAtIndex:ch] objectForKey:@"time"];
+
             dateModel.startTime = [[[dates objectAtIndex:ch] objectForKey:@"stdStartTime"] doubleValue];
             dateModel.endTime= [[[dates objectAtIndex:ch] objectForKey:@"stdEndTime"] doubleValue];
             dateModel.status = [dateModel checkOccurrence:dateModel.startTime stdEndTime:dateModel.endTime];
-            //[breakout.sessionStatus addObject:dateModel.status];
+            [breakout.sessionDates addObject:dateModel];
             [sessionStatus addObject:dateModel.status];
         }
         
         
-       
+       breakout.sessionDetails = [[breakoutJsonArray objectAtIndex:i] objectForKey:@"description"];
 
         
         NSMutableArray *participants = [[breakoutJsonArray objectAtIndex:i] objectForKey:@"participants"];

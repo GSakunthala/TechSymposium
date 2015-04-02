@@ -26,6 +26,9 @@
 		B0031CF21ACAFC1E008C1056 /* DateModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B0031CF11ACAFC1E008C1056 /* DateModel.m */; };
 		B0031CF71ACBB1D8008C1056 /* BreakoutDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0031CF51ACBB1D8008C1056 /* BreakoutDetailsViewController.m */; };
 		B0031CF81ACBB1D8008C1056 /* BreakoutDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0031CF61ACBB1D8008C1056 /* BreakoutDetailsViewController.xib */; };
+		B0031CFC1ACBCE0F008C1056 /* TimelineTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B0031CFA1ACBCE0F008C1056 /* TimelineTableViewCell.m */; };
+		B0031CFD1ACBCE0F008C1056 /* TimelineTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0031CFB1ACBCE0F008C1056 /* TimelineTableViewCell.xib */; };
+		B0031CFF1ACC0865008C1056 /* checkScrollView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0031CFE1ACC0865008C1056 /* checkScrollView.xib */; };
 		B06497E31AC15D4100945B45 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B06497E21AC15D4100945B45 /* main.m */; };
 		B06497E61AC15D4100945B45 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B06497E51AC15D4100945B45 /* AppDelegate.m */; };
 		B06497E91AC15D4100945B45 /* TechSymposium.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B06497E71AC15D4100945B45 /* TechSymposium.xcdatamodeld */; };
@@ -90,6 +93,10 @@
 		B0031CF41ACBB1D8008C1056 /* BreakoutDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BreakoutDetailsViewController.h; sourceTree = "<group>"; };
 		B0031CF51ACBB1D8008C1056 /* BreakoutDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BreakoutDetailsViewController.m; sourceTree = "<group>"; };
 		B0031CF61ACBB1D8008C1056 /* BreakoutDetailsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BreakoutDetailsViewController.xib; sourceTree = "<group>"; };
+		B0031CF91ACBCE0F008C1056 /* TimelineTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimelineTableViewCell.h; sourceTree = "<group>"; };
+		B0031CFA1ACBCE0F008C1056 /* TimelineTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimelineTableViewCell.m; sourceTree = "<group>"; };
+		B0031CFB1ACBCE0F008C1056 /* TimelineTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TimelineTableViewCell.xib; sourceTree = "<group>"; };
+		B0031CFE1ACC0865008C1056 /* checkScrollView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = checkScrollView.xib; sourceTree = "<group>"; };
 		B06497DD1AC15D4100945B45 /* TechSymposium.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TechSymposium.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B06497E11AC15D4100945B45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B06497E21AC15D4100945B45 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -177,6 +184,10 @@
 				B0031CF41ACBB1D8008C1056 /* BreakoutDetailsViewController.h */,
 				B0031CF51ACBB1D8008C1056 /* BreakoutDetailsViewController.m */,
 				B0031CF61ACBB1D8008C1056 /* BreakoutDetailsViewController.xib */,
+				B0031CF91ACBCE0F008C1056 /* TimelineTableViewCell.h */,
+				B0031CFA1ACBCE0F008C1056 /* TimelineTableViewCell.m */,
+				B0031CFB1ACBCE0F008C1056 /* TimelineTableViewCell.xib */,
+				B0031CFE1ACC0865008C1056 /* checkScrollView.xib */,
 			);
 			name = Breakouts;
 			sourceTree = "<group>";
@@ -397,11 +408,13 @@
 				B064982F1AC5477F00945B45 /* Speaker.json in Resources */,
 				B0031C681ACA96AF008C1056 /* AttendeeTableViewCell.xib in Resources */,
 				B06497F41AC15D4100945B45 /* LaunchScreen.xib in Resources */,
+				B0031CFF1ACC0865008C1056 /* checkScrollView.xib in Resources */,
 				B0031C5D1ACA7869008C1056 /* Attendee.json in Resources */,
 				B0031CDE1ACADB1B008C1056 /* BreakoutsViewController.xib in Resources */,
 				B06497F11AC15D4100945B45 /* Images.xcassets in Resources */,
 				B0A1020B1AC92B3800239D48 /* back-50x50.png in Resources */,
 				B0031CE81ACAEA63008C1056 /* hexagon.png in Resources */,
+				B0031CFD1ACBCE0F008C1056 /* TimelineTableViewCell.xib in Resources */,
 				B0031C5B1ACA6B4D008C1056 /* AttendeesViewController.xib in Resources */,
 				B0A1020D1AC94BCF00239D48 /* menu-background.png in Resources */,
 				B0A102061AC923BD00239D48 /* Lato-Regular.svg in Resources */,
@@ -435,6 +448,7 @@
 				B064982B1AC5276D00945B45 /* SpeakerDAO.m in Sources */,
 				B0031CE41ACADD1F008C1056 /* BreakoutTableViewCell.m in Sources */,
 				B0031CEE1ACAEDA0008C1056 /* BreakoutDAO.m in Sources */,
+				B0031CFC1ACBCE0F008C1056 /* TimelineTableViewCell.m in Sources */,
 				B06497E91AC15D4100945B45 /* TechSymposium.xcdatamodeld in Sources */,
 				B0031CF71ACBB1D8008C1056 /* BreakoutDetailsViewController.m in Sources */,
 				B06498101AC1787F00945B45 /* SpeakerViewController.m in Sources */,

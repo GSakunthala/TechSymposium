@@ -7,6 +7,7 @@
 //
 
 #import "BreakoutsViewController.h"
+#import "BreakoutDetailsViewController.h"
 #import "BreakoutTableViewCell.h"
 #import "BreakoutModel.h"
 #import "BreakoutDAO.h"
@@ -66,6 +67,8 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     placeholderArray = [self returnPlaceholderArray];
+
+    
     static NSString *simpleTableIdentifier = @"BreakoutCell";
     BreakoutTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:simpleTableIdentifier];
     if (!cell) {
@@ -89,21 +92,21 @@
 
 
 
-/*
+
 #pragma mark - Table view delegate
 
 // In a xib-based application, navigation from a table can be handled in -tableView:didSelectRowAtIndexPath:
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    // Navigation logic may go here, for example:
-    // Create the next view controller.
-    <#DetailViewController#> *detailViewController = [[<#DetailViewController#> alloc] initWithNibName:<#@"Nib name"#> bundle:nil];
+    NSInteger selectedCellNo =  indexPath.row;
+    BreakoutModel *selectedBreakout =  [placeholderArray objectAtIndex:selectedCellNo];
     
-    // Pass the selected object to the new view controller.
+    BreakoutDetailsViewController *breakoutDetailsVC = [[BreakoutDetailsViewController alloc] init];
+    breakoutDetailsVC.selectedBreakout = selectedBreakout;
     
-    // Push the view controller.
-    [self.navigationController pushViewController:detailViewController animated:YES];
+    
+    [self.navigationController pushViewController:breakoutDetailsVC animated:YES];
 }
-*/
+
 
 /*
 #pragma mark - Navigation

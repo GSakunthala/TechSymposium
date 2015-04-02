@@ -28,6 +28,27 @@
                  "stdStartTime": "1408519800000",
                  "stdEndTime": "1408530900000",
                  "location": "Strategy 1"
+                 },
+                 {
+                 "ds": "Wednesday 21 August 2014",
+                 "time": "1:0 PM-4:5 PM",
+                 "stdStartTime": "1408519800000",
+                 "stdEndTime": "1408530900000",
+                 "location": "Strategy 1"
+                 },
+                 {
+                 "ds": "Wednesday 22 August 2014",
+                 "time": "1:0 PM-4:5 PM",
+                 "stdStartTime": "1408519800000",
+                 "stdEndTime": "1408530900000",
+                 "location": "Strategy 1"
+                 },
+                 {
+                 "ds": "Wednesday 23 August 2014",
+                 "time": "1:0 PM-4:5 PM",
+                 "stdStartTime": "1408519800000",
+                 "stdEndTime": "1408530900000",
+                 "location": "Strategy 1"
                  }
                  ],
 		"participants":["E502205", "testStudio13"],
