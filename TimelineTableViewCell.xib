@@ -23,22 +23,29 @@
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p5Q-kk-e8a">
                         <rect key="frame" x="42" y="10" width="244" height="21"/>
                         <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="14"/>
-                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4jC-Un-RZh">
                         <rect key="frame" x="42" y="31" width="244" height="21"/>
                         <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="12"/>
-                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <nil key="highlightedColor"/>
                     </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="clock-black.png" translatesAutoresizingMaskIntoConstraints="NO" id="mZg-rj-M1s">
+                        <rect key="frame" x="8" y="17" width="26" height="26"/>
+                    </imageView>
                 </subviews>
             </tableViewCellContentView>
             <connections>
+                <outlet property="clockImage" destination="mZg-rj-M1s" id="Me9-Zf-zv5"/>
                 <outlet property="sessionDate" destination="p5Q-kk-e8a" id="jyJ-kS-b2k"/>
                 <outlet property="sessionTime" destination="4jC-Un-RZh" id="4ru-Yd-8ll"/>
             </connections>
             <point key="canvasLocation" x="243" y="166"/>
         </tableViewCell>
     </objects>
+    <resources>
+        <image name="clock-black.png" width="26" height="26"/>
+    </resources>
 </document>

@@ -19,7 +19,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
+    self.title = @"Breakouts";
     [self loadDetails];
     [self adjustHeightOfViews];
     // Do any additional setup after loading the view from its nib.
@@ -70,6 +70,12 @@
     cell.sessionDate.text = timeLine.ds;
     cell.sessionTime.text = timeLine.time;
 
+    if([timeLine.status  isEqual: @"current"])
+    {
+        cell.clockImage.image = [UIImage imageNamed:@"clock-green.png"];
+        _bar.backgroundColor = [UIColor greenColor];
+    }
+    
     return cell;
     
 }
@@ -100,17 +106,18 @@
     }
     _descriptionView.text =  _selectedBreakout.sessionDetails;
     
+    
 }
 
 - (void)adjustHeightOfViews
 {
     
-    CGRect frame = _descriptionView.frame;
+    CGRect descriptionViewframe = _descriptionView.frame;
     
     
     CGSize textViewSize = [_descriptionView sizeThatFits:CGSizeMake(_descriptionView.frame.size.width, FLT_MAX)];
-    frame.size.height = textViewSize.height;
-    _descriptionView.frame = frame;
+    descriptionViewframe.size.height = textViewSize.height;
+    _descriptionView.frame = descriptionViewframe;
     
     [_timeLines layoutIfNeeded];
 
@@ -136,8 +143,16 @@
         frame.size.height = height;
         _timeLines.frame = frame;
         
+        
+        
+        NSLog(@"---%f",descriptionViewframe.size.height);
+        //increase contentview size accordingly
         CGRect frame1 =_contentView.frame;
-        frame1.size.height = _contentView.frame.size.height + _timeLines.contentSize.height - 177;
+        NSLog(@"---%f",frame1.size.height);
+
+        frame1.size.height = _contentView.frame.size.height +( _timeLines.contentSize.height - 177 )+ (descriptionViewframe.size.height -100);
+        NSLog(@"---%f",frame1.size.height);
+
         _contentView.frame = frame1;
        // _scrollView.frame = frame;
         

@@ -28,12 +28,12 @@
 		B0031CF81ACBB1D8008C1056 /* BreakoutDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0031CF61ACBB1D8008C1056 /* BreakoutDetailsViewController.xib */; };
 		B0031CFC1ACBCE0F008C1056 /* TimelineTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B0031CFA1ACBCE0F008C1056 /* TimelineTableViewCell.m */; };
 		B0031CFD1ACBCE0F008C1056 /* TimelineTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0031CFB1ACBCE0F008C1056 /* TimelineTableViewCell.xib */; };
-		B0031CFF1ACC0865008C1056 /* checkScrollView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0031CFE1ACC0865008C1056 /* checkScrollView.xib */; };
+		B0031D011ACD057D008C1056 /* clock-black.png in Resources */ = {isa = PBXBuildFile; fileRef = B0031D001ACD057D008C1056 /* clock-black.png */; };
+		B0031D041ACD3F6E008C1056 /* clock-green.png in Resources */ = {isa = PBXBuildFile; fileRef = B0031D031ACD3F6E008C1056 /* clock-green.png */; };
 		B06497E31AC15D4100945B45 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B06497E21AC15D4100945B45 /* main.m */; };
 		B06497E61AC15D4100945B45 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B06497E51AC15D4100945B45 /* AppDelegate.m */; };
 		B06497E91AC15D4100945B45 /* TechSymposium.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B06497E71AC15D4100945B45 /* TechSymposium.xcdatamodeld */; };
 		B06497F11AC15D4100945B45 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B06497F01AC15D4100945B45 /* Images.xcassets */; };
-		B06497F41AC15D4100945B45 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B06497F21AC15D4100945B45 /* LaunchScreen.xib */; };
 		B06498001AC15D4100945B45 /* TechSymposiumTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B06497FF1AC15D4100945B45 /* TechSymposiumTests.m */; };
 		B06498101AC1787F00945B45 /* SpeakerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B064980E1AC1787F00945B45 /* SpeakerViewController.m */; };
 		B06498111AC1787F00945B45 /* SpeakerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B064980F1AC1787F00945B45 /* SpeakerViewController.xib */; };
@@ -96,7 +96,8 @@
 		B0031CF91ACBCE0F008C1056 /* TimelineTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimelineTableViewCell.h; sourceTree = "<group>"; };
 		B0031CFA1ACBCE0F008C1056 /* TimelineTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimelineTableViewCell.m; sourceTree = "<group>"; };
 		B0031CFB1ACBCE0F008C1056 /* TimelineTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TimelineTableViewCell.xib; sourceTree = "<group>"; };
-		B0031CFE1ACC0865008C1056 /* checkScrollView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = checkScrollView.xib; sourceTree = "<group>"; };
+		B0031D001ACD057D008C1056 /* clock-black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clock-black.png"; sourceTree = "<group>"; };
+		B0031D031ACD3F6E008C1056 /* clock-green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clock-green.png"; sourceTree = "<group>"; };
 		B06497DD1AC15D4100945B45 /* TechSymposium.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TechSymposium.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B06497E11AC15D4100945B45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B06497E21AC15D4100945B45 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -104,7 +105,6 @@
 		B06497E51AC15D4100945B45 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B06497E81AC15D4100945B45 /* TechSymposium.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TechSymposium.xcdatamodel; sourceTree = "<group>"; };
 		B06497F01AC15D4100945B45 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		B06497F31AC15D4100945B45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		B06497F91AC15D4100945B45 /* TechSymposiumTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TechSymposiumTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B06497FE1AC15D4100945B45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B06497FF1AC15D4100945B45 /* TechSymposiumTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TechSymposiumTests.m; sourceTree = "<group>"; };
@@ -187,7 +187,6 @@
 				B0031CF91ACBCE0F008C1056 /* TimelineTableViewCell.h */,
 				B0031CFA1ACBCE0F008C1056 /* TimelineTableViewCell.m */,
 				B0031CFB1ACBCE0F008C1056 /* TimelineTableViewCell.xib */,
-				B0031CFE1ACC0865008C1056 /* checkScrollView.xib */,
 			);
 			name = Breakouts;
 			sourceTree = "<group>";
@@ -228,7 +227,6 @@
 				B06497E41AC15D4100945B45 /* AppDelegate.h */,
 				B06497E51AC15D4100945B45 /* AppDelegate.m */,
 				B06497F01AC15D4100945B45 /* Images.xcassets */,
-				B06497F21AC15D4100945B45 /* LaunchScreen.xib */,
 				B06497E71AC15D4100945B45 /* TechSymposium.xcdatamodeld */,
 				B06497E01AC15D4100945B45 /* Supporting Files */,
 			);
@@ -297,6 +295,8 @@
 		B06498A21AC8E87C00945B45 /* image */ = {
 			isa = PBXGroup;
 			children = (
+				B0031D031ACD3F6E008C1056 /* clock-green.png */,
+				B0031D001ACD057D008C1056 /* clock-black.png */,
 				B0031CE71ACAEA63008C1056 /* hexagon.png */,
 				B0031C6A1ACA98DB008C1056 /* mail.png */,
 				B0A1020C1AC94BCF00239D48 /* menu-background.png */,
@@ -407,8 +407,8 @@
 				B0031CF81ACBB1D8008C1056 /* BreakoutDetailsViewController.xib in Resources */,
 				B064982F1AC5477F00945B45 /* Speaker.json in Resources */,
 				B0031C681ACA96AF008C1056 /* AttendeeTableViewCell.xib in Resources */,
-				B06497F41AC15D4100945B45 /* LaunchScreen.xib in Resources */,
-				B0031CFF1ACC0865008C1056 /* checkScrollView.xib in Resources */,
+				B0031D011ACD057D008C1056 /* clock-black.png in Resources */,
+				B0031D041ACD3F6E008C1056 /* clock-green.png in Resources */,
 				B0031C5D1ACA7869008C1056 /* Attendee.json in Resources */,
 				B0031CDE1ACADB1B008C1056 /* BreakoutsViewController.xib in Resources */,
 				B06497F11AC15D4100945B45 /* Images.xcassets in Resources */,
@@ -476,17 +476,6 @@
 			targetProxy = B06497FA1AC15D4100945B45 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		B06497F21AC15D4100945B45 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B06497F31AC15D4100945B45 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		B06498011AC15D4100945B45 /* Debug */ = {
@@ -569,6 +558,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = TechSymposium/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -580,6 +570,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = TechSymposium/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

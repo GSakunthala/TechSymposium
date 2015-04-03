@@ -12,6 +12,7 @@
 @interface BreakoutDetailsViewController : UIViewController
 @property (strong, nonatomic) IBOutlet UIScrollView *scrollView;
 @property (strong, nonatomic) IBOutlet UIView *contentView;
+@property (strong, nonatomic) IBOutlet UIView *bar;
 @property (strong, nonatomic) IBOutlet UILabel *barText;
 @property (strong, nonatomic) IBOutlet UILabel *topicName;
 @property (strong, nonatomic) IBOutlet UILabel *participants;

@@ -11,5 +11,6 @@
 @interface TimelineTableViewCell : UITableViewCell
 @property (strong, nonatomic) IBOutlet UILabel *sessionDate;
 @property (strong, nonatomic) IBOutlet UILabel *sessionTime;
+@property (strong, nonatomic) IBOutlet UIImageView *clockImage;
 
 @end
